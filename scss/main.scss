@@ -2,12 +2,27 @@
 
 $font-family-sans-serif:'Poppins', sans-serif;
 
-$theme-colors: (
-  "primary": #efefef,
-  
-);
-
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+// All Custom Codes
 
+body{
+  background-color: #f6f6f6;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.li-bar{
+  width: 1px;
+  background-color: #c5c4c4;
+  height: 1rem;
+}
+
+.nav-icon {
+  color: #555555;
+  font-size: 1.3rem;
+}
+.nav-item a{
+  color: #555252;
+}

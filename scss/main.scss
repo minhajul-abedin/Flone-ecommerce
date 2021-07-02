@@ -3,7 +3,7 @@
 $font-family-sans-serif:'Poppins', sans-serif;
 
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+
 
 // All Custom Codes
 
@@ -20,9 +20,44 @@ body{
 }
 
 .nav-icon {
-  color: #555555;
+  color: rgba(0, 0, 0, 0.55);
   font-size: 1.3rem;
 }
-.nav-item a{
-  color: #555252;
+.nav-item{
+  cursor: pointer;
 }
+
+.custom-droopdown{
+  position: relative;
+}
+.custom-droopdown:hover ul{
+  display: block;
+}
+.custom-droopdown ul{
+  display: none;
+  min-width: 100px;
+  position: absolute;
+  z-index: 100;
+  background: #fff;
+  box-shadow: 0 1px 7px -2px rgb(0 0 0 / 30%);
+  padding: 1rem;
+  border-radius: 0.15rem;
+  margin-top: 0.5rem;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap"

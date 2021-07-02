@@ -1,5 +1,46 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,200&display=swap");
+body {
+  background-color: #f6f6f6;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.li-bar {
+  width: 1px;
+  background-color: #c5c4c4;
+  height: 1rem;
+}
+
+.nav-icon {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 1.3rem;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.custom-droopdown {
+  position: relative;
+}
+
+.custom-droopdown:hover ul {
+  display: block;
+}
+
+.custom-droopdown ul {
+  display: none;
+  min-width: 100px;
+  position: absolute;
+  z-index: 100;
+  background: #fff;
+  box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-radius: 0.15rem;
+  margin-top: 0.5rem;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10746,26 +10787,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-body {
-  background-color: #f6f6f6;
-  width: 100vw;
-  min-height: 100vh;
-}
-
-.li-bar {
-  width: 1px;
-  background-color: #c5c4c4;
-  height: 1rem;
-}
-
-.nav-icon {
-  color: #555555;
-  font-size: 1.3rem;
-}
-
-.nav-item a {
-  color: #555252;
 }
 
 /*# sourceMappingURL=style.css.map */
